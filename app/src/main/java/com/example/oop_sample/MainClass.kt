@@ -9,7 +9,7 @@ class DegreesToFahrenheit {
 
 class RectangularPerimeter{
     fun RectangularPerimeterCalculation(width:Double, height:Double):Double{
-        val perimeter = 2 * width * height
+        val perimeter = 2 * (width + height)
         return perimeter
     }
 }

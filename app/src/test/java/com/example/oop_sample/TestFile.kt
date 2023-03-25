@@ -32,7 +32,7 @@ class UnitTest{
     @Test
     fun RectangularPerimeter_Test1(){
         val rectangularperimeter = RectangularPerimeter()
-        val expected:Double = 320.0
+        val expected:Double = 164.0
         val actual = rectangularperimeter.RectangularPerimeterCalculation(80.0, 2.0)
         assertEquals(expected, actual,0.0)
     }
@@ -40,7 +40,7 @@ class UnitTest{
     @Test
     fun RectangularPerimeter_Test2(){
         val rectangularperimeter = RectangularPerimeter()
-        val expected:Double = 80.0
+        val expected:Double = 44.0
         val actual = rectangularperimeter.RectangularPerimeterCalculation(20.0, 2.0)
         assertEquals(expected, actual,0.0)
     }
@@ -48,7 +48,7 @@ class UnitTest{
     @Test
     fun RectangularPerimeter_Test3(){
         val rectangularperimeter = RectangularPerimeter()
-        val expected:Double = 480.0
+        val expected:Double = 244.0
         val actual = rectangularperimeter.RectangularPerimeterCalculation(120.0, 2.0)
         assertEquals(expected, actual,0.0)
     }
